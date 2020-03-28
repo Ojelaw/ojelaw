@@ -1,0 +1,28 @@
+<script>alert("Awesome right!!! YEA");
+       var name = "Olamilekan Ojelabi";
+         console.log("My name is: " + name);
+         
+       var courses=["html","css", "javascript",];
+        console.log("My courses are: "+courses);
+        
+       var arraylength=courses.length;
+            console.log(arraylength);
+          
+      if (arraylength%2===0){
+       console.log("It is even numbers"+"<br/>");
+        for  (i=0; i<=200; i++){
+            console.log(i+"<br/>");
+            
+                   i++;
+               }
+
+           }"Else";
+           {
+       console.log("It is odd Numbers"+"<br/>");
+       for(i=1;i<=200;i++){
+           console.log(i+"<br/>");
+           i++;
+   }
+ }
+ 
+       </script>
