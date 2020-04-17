@@ -1,0 +1,146 @@
+body{
+    background-color: purple;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.navigation{
+    padding: 5px 5px;
+    background-color: whitesmoke;
+    font-size: 18px;
+    width: 100%;
+}
+.wrapper{
+    padding: 10px 10px;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: solid whitesmoke;
+    height: 600px;
+    width: 1000px;
+
+}
+.Biodata{
+    float: left;
+    width: 50%;
+    font-size: 22px;
+
+}
+.picture{
+    float: right;
+    width: 45%;
+}
+ul{
+    list-style: none;
+    color:black;
+ 
+}
+li{
+    display: Inline;
+    list-style-type: disc;
+    
+}
+input{
+    width: 30%;
+    padding:20px 25px;
+    background-color:buttonface;
+    border-radius:7px;
+    border: none;
+    font-size: 11pt;
+    
+}
+textarea{
+    width: 50%;
+    padding:12px 20px;
+    border-radius:7px;
+    border: none;
+    font-size: 11pt;
+    height: 200px;
+    color: black;
+}
+button{
+    cursor: pointer;
+    width: 10%;
+    padding:12px 20px;
+    background-color: yellow;
+    color:purple;
+}
+hr{
+    border: solid yellow;
+    width: 100%;
+}
+.footer{
+    background-color: whitesmoke;
+    color: purple;
+    padding: 12px 20px;
+}
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Task3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Task3.css">
+    </head>
+    <body>
+        <img src="16.jpg" alt="dove" width="70" height="70">
+        YOUNG SHALL GROW
+        <div class="navigation">
+            <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Developer</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+            <h1>About The Developer</h1>
+        <div class="wrapper">
+            <div class="Biodata">
+                My name is Ojelabi Olalekan Lawrence. I am from Ijebu-Jesa in Osun State. I was born
+                on the 22nd of November, 1994. I live at No 3, Aare Avenue, New
+                Bodija Street, Ibadan, Oyo State. I am a serving corps member
+                in an engineering consultancy firm in Ibadan.
+                <p>I am a virile young man who is always ready to learn and adapt to environment
+                easily. I am friendly and i make friends easily, slow to anger
+                and quick to laughter. I studied Computer Science from the Federal Polytechnic Ado Ekiti
+                where i took specialty in Computer Hardware and web development. I
+                am tech-savvy and always eager to know more.</p>
+                <p> My Hobbies include watching and playing football, reading, researching, hanging out with fiends.
+                    I love surfing the internet in search of anything that can develop me in all ramifications.My best game is
+                    Scrabble and games that involves critical thinking and words spelling.
+                </p>
+            </div>
+            <div class="picture">
+                <img src="law.jpeg" alt="My_Picture" width="400" height="500"></br>
+                Slack ID:UVAT3CR0Q
+            </div>
+        </div>
+            <h2>Leave a Message</h2>
+                <form method="Post">
+                    <p><input type="text" id="fname" name="full_name" placeholder="Enter Your Full Name" required/></p>
+                    <p><input type="email" name="email" placeholder="Enter Your Email" required /></p>
+                    <label for="message">Your Comment</label>
+                    <p><textarea name="message" placeholder="write something..."> </textarea></p>
+
+                        <button type="submit">Send Message</button>
+                </form>
+            <hr>
+            <div class="footer">
+               <h2>Our Contact Info</h2>
+               You can call us/send us a mail on 08142427368/oolalekan273@gmail.com<img src="050-Gmail.png" width="20" height="15"><br>
+               or follow us on our social media pages<br>
+               
+                <a href="https://twitter.com/Ojelaw01"><img src="008-twitter.png" width="20" height="20"></a>
+              <a href="https://web.facebook.com/ojelabio2"><img src="036-facebook.png" width="20" height="20"></a>
+              <img src="029-instagram.png" width="20" height="20" alt="instagram logo">
+           </div>
+    </body>
+</html>
