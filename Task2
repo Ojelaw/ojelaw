@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>FrontEnd</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        body{
+    text-align:center;
+   padding: 50px 20px 15px 20px;
+   background-color:#ADD8E6;
+   font-family: sans-serif;
+}
+h3{
+    color: blue;
+}
+.wrapper{
+    background-color: white;
+    text-align: center;
+    padding: 50px 100px 15px 15px;
+    border-radius: 50px 50px 50px 0px;
+    position:static;
+    margin-left: 30%;
+    margin-right: 30%;
+        
+}
+input{
+    width: 100%;
+    padding:20px 25px;
+    background-color:buttonface;
+    border-radius:7px;
+    border: none;
+    font-size: 11pt;
+    text-align: left;
+
+}
+select{
+    width: 115%;
+    padding:20px 25px;
+    background-color:buttonface;
+    border-radius:7px;
+    border: none;
+    font-size: 11pt;
+    text-align: left;
+}
+input[type=submit]{
+    width: 115%;
+    padding:20px 25px;
+    background-color:blue;
+    border-radius:7px;
+    border: none;
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+}
+.login{
+    color: white;
+}
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="piggyvest.svg" alt="Piggyvest" width="200" height="50">
+        </div>
+        <div class="wrapper">
+        <h3>Create a Secure Account</h3>
+            Welcome to the future of Savings & Investments
+        <div>
+            <form method="POST">
+
+            <p>
+                <label for="fullname">Full Name</label><br />
+                <input type="text" name="FullName" placeholder="Full Name" required/>
+            </p>
+
+            <p>
+                <label for="email">Email Address</label><br />
+                <input type="email" name="Email" placeholder="Email Address" required />
+            </p>
+
+            <p>
+                <label for="phone_number">Phone Number</label><br />
+                <input type="text" name="Phone Number" placeholder="Phone Number" required/>
+            </p>
+            <p>
+                <label for="password">Password</label><br />
+                <input type="password" name="Password" placeholder="Password" required/>
+            </p>
+            <p>
+                <label for="ReferrerPhoneorPromoCode">Referrer Phone or Promo Code (optional)</label><br />
+                <input type="text" name="Referrer_Phone _or_Promo_Code" placeholder="Referrer Phone or Promo Code" required/>
+            </p>
+                    <p>
+                        <label for="Info">How Did You Hear About Us? (Optional)</label><br />
+                        <select name="Info" required="">
+                               <option>Click Select</option>
+                               <option>Facebook</option>
+                               <option>Twitter</option>
+                               <option>Instagram</option>
+                               <option>Friend/Family/Coworker Referral</option>
+                               <option>Google Search</option>
+                               <option>Online Blog</option>
+                               <option>Local Newspaper</option>
+                               <option>At an Event</option>
+                               <option>Other</option>
+                        </select>
+                    </p>
+                        <input type="submit" name="CREATE_ACCOUNT" value="CREATE ACCOUNT">   
+        </div>
+    </div><br/>
+        <div class="login">
+            Already have an account?Log in
+        </div>
+        
+    </body>
+</html>
