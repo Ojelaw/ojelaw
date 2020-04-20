@@ -1,0 +1,12 @@
+<script>alert("Awesome right!!! YEA");
+                function check_divisibility(integer){
+                var output= [];
+                for(var i=0; i<=integer; i++){
+                if(integer%2===0){
+                return (output.push(i));
+                
+                }
+                }
+                }
+                console.log(check_divisibility(2,3,5));
+        </script>
